@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - FleetFly</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920') center/cover no-repeat;
+    color:white;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    padding:40px;
+    border-radius:30px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.2);
+    text-align:center;
+}
+
+.logo{
+    font-size:50px;
+    font-weight:700;
+    color:#00d26a;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:20px;
+    opacity:.8;
+    margin-bottom:40px;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    padding:30px;
+    border-radius:20px;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.15);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(0,210,106,.4);
+}
+
+.card h2{
+    color:#00d26a;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.8;
+}
+
+.home-btn{
+    display:inline-block;
+    margin-top:50px;
+    padding:15px 35px;
+    background:#00d26a;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.home-btn:hover{
+    background:#00b85c;
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:38px;
+}
+
+.card{
+    width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">FleetFly</div>
+
+<h1>About Me & Contact</h1>
+
+<p class="subtitle">
+Welcome to FleetFly Premium Rentals. We help users discover premium rental cars from trusted providers worldwide.
+</p>
+
+<div class="card-container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+Hi, I'm Ritesh Tiwari.<br>
+Founder of FleetFly Premium Rentals.<br>
+Our mission is to help customers find luxury and premium car rentals easily.
+</p>
+</div>
+
+<div class="card">
+<h2>Contact Details</h2>
+<p>
+📞 Phone: +91 9876543210<br><br>
+📧 Email: support@fleetfly.com<br><br>
+🌐 Website: www.fleetfly.com
+</p>
+</div>
+
+<div class="card">
+<h2>Location</h2>
+<p>
+📍 Opposite Medicover Hospital<br><br>
+Vizianagaram,<br>
+Andhra Pradesh, India
+</p>
+</div>
+
+</div>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+
+</div>
+
+</body>
+</html>
